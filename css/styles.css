@@ -352,7 +352,7 @@ main {
 }
 .main-plans__slider {
   display: flex;
-  height: 31.6rem;
+  height: 32rem;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
