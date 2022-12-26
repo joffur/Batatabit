@@ -149,8 +149,14 @@ main {
   max-width: 50rem;
   height: 36rem;
   scroll-snap-align: center;
-  margin: 0 20px;
+  margin: 0 30px;
   font-family: 'Inter', sans-serif;
+}
+.table-currency {
+  margin-right: 20px;
+}
+.table-commissions {
+  margin-left: 20px;
 }
 .main-tables__title {
   margin-bottom: 15px;
@@ -377,10 +383,10 @@ main {
   position: relative;
   scroll-snap-align: center;
   width: 70%;
-  min-width: calc(320 * 0.07rem);
+  min-width: 19rem;
   max-width: 30rem;
   height: 25rem;
-  margin: 50px 20px 0;
+  margin: 50px 5px 0;
   padding: 0 15px;
   background-color: var(--just-white);
   border-radius: 15px;
@@ -442,4 +448,34 @@ main {
   height: 24px;
   background-image: url("./assets/icons/orange-right-arrow.svg");
   vertical-align: middle;
+}
+/***** Estilos del Footer *****/
+footer {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: var(--bitcoin-orange);
+}
+.footer__left, .footer__right {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.footer__left-list {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none;
+}
+.footer__left-list-item {
+  margin: 10px 0;
+}
+.footer__left-list-item a {
+  text-decoration: none;
+  color: var(--just-white);
+}
+.footer__right-img {
+  width: 64px;
+  height: 50px;
 }
